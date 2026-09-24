@@ -1,0 +1,20 @@
+[project]
+name = "prac-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "bhoomikaaa20", email = "bhoomikasomavarapu15@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "langchain[huggingface]>=1.4.2",
+    "langchain-openrouter>=0.2.9",
+]
+
+[project.scripts]
+prac-project = "prac_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
