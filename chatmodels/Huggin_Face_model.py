@@ -11,6 +11,6 @@ llm = HuggingFaceEndpoint(
 
 model = ChatHuggingFace(llm=llm)
 
-response = model.invoke("Why do parrots talk?")
+response = model.invoke("Who are you")
 
 print(response.content)
