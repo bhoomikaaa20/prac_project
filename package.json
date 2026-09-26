@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@langchain/core": "^1.2.12",
+    "@langchain/mistralai": "^1.2.0"
+  }
+}

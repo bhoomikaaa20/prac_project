@@ -12,6 +12,7 @@ dependencies = [
     "langchain-openrouter>=0.2.9",
     "transformers>=5.17.0",
     "torch>=2.14.0",
+    "langchain-openai>=1.6.6",
 ]
 
 [project.scripts]
