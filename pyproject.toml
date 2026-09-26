@@ -13,6 +13,9 @@ dependencies = [
     "transformers>=5.17.0",
     "torch>=2.14.0",
     "langchain-openai>=1.6.6",
+    "streamlit>=1.64.0",
+    "python-dotenv>=1.2.3",
+    "langchain-core>=1.6.4",
 ]
 
 [project.scripts]
