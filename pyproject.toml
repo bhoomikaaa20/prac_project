@@ -16,6 +16,7 @@ dependencies = [
     "streamlit>=1.64.0",
     "python-dotenv>=1.2.3",
     "langchain-core>=1.6.4",
+    "langchain-tavily>=0.2.18",
 ]
 
 [project.scripts]
